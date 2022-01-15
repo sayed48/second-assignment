@@ -1,0 +1,114 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common fonts style or utilities */
+*{font-family: font-family: 'Poppins', sans-serif;
+   
+
+}
+/* 1st section style start */
+main{
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #f5f2f2;
+    padding: 10px;
+    
+    
+}
+.products{
+    display: flex;
+}
+.product-introduce{
+    width: 50%;
+    height: 270px;
+    border-radius: 41px;
+}
+.product-introduce h1 span{
+    display: block;
+}
+.link-button{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 50%;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    padding: 8px 20px;
+}
+.product-introduce {
+    display: inline;
+}
+.product-pic{
+    margin-left: 80px;
+    margin-bottom: 80px;
+    width: 440px;
+    height: 414px;
+    transition: width 3s, height 3s;
+}
+.product-pic img:hover{
+    width: 400px;
+    height: 390px;
+}
+
+/* 1st section style end */
+
+h2{
+    text-align: center;
+}
+.collection{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    
+    
+}
+.product-collection{
+    background-color: #FFFFFF
+    padding: 15px;
+    box-shadow: 0px 0px 0px 10px rgb(243, 239, 239);
+    
+}
+.collection h2{
+    text-align: start;
+}.collection h5{
+    color: #787885;
+}
+.see-button{
+    position: absolute;
+    right: 177px;
+    top: 2500px;
+}
+.see-button a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+/* 3rd section style start */
+.site-built{
+    display: flex;
+}
+.hire-info{
+    padding-left: 40px;
+}
+.hire-button{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 15%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration:none;
+}
+
+/* 3rd section style end */
+
+/* footer style start */
+.footer{
+    color: #FFFFFF;
+    background-color: #080125;
+    text-align: center;
+}
+/* footer style end */
